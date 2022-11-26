@@ -3,6 +3,7 @@
 
 frappe.provide("erpnext.item");
 // jhguhhg
+// test by madhan
 frappe.ui.form.on("Item", {
 	setup: function(frm) {
 		frm.add_fetch('attribute', 'numeric_values', 'numeric_values');
